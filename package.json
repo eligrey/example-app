@@ -1,41 +1,41 @@
 {
-	"name": "example-app",
-	"version": "0.11.0",
-	"author": "Tobias Koppers @sokra",
-	"description": "example web app for webpack",
-	"dependencies": {
-		"webpack": "1.2.x",
-		"webpack-dev-server": "1.3.x",
-		"bootstrap": "https://github.com/twbs/bootstrap/archive/v3.0.2.tar.gz",
-		"jade-loader": "0.6.x",
-		"json-loader": "0.5.x",
-		"url-loader": "0.5.x",
-		"file-loader": "0.5.x",
-		"coffee-loader": "0.7.x",
-		"jshint-loader": "0.6.x",
-		"bundle-loader": "0.5.x",
-		"style-loader": "0.6.x",
-		"css-loader": "0.6.x",
-		"less-loader": "0.7.x",
-		"exports-loader": "0.6.x",
-		"raw-loader": "0.5.x"
-	},
-	"jam": {
-		"dependencies": {
-			"jquery": "1.9.1"
-		}
-	},
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://www.opensource.org/licenses/mit-license.php"
-		}
-	],
-	"scripts": {
-		"start": "webpack-dev-server -d --colors"
-	},
-	"engines": {
-		"node":  ">=0.1.30"
-	},
-	"homepage": "http://github.com/webpack/webpack-example"
+  "name": "example-app",
+  "version": "0.11.0",
+  "author": "Tobias Koppers @sokra",
+  "description": "example web app for webpack",
+  "dependencies": {
+    "webpack": "1.4.2",
+    "webpack-dev-server": "1.3.x",
+    "bootstrap": "https://github.com/twbs/bootstrap/archive/v3.0.2.tar.gz",
+    "jade-loader": "0.6.x",
+    "json-loader": "0.5.x",
+    "url-loader": "0.5.x",
+    "file-loader": "0.5.x",
+    "coffee-loader": "0.7.x",
+    "jshint-loader": "0.6.x",
+    "bundle-loader": "0.5.x",
+    "style-loader": "0.6.x",
+    "css-loader": "0.6.x",
+    "less-loader": "0.7.x",
+    "exports-loader": "0.6.x",
+    "raw-loader": "0.5.x"
+  },
+  "jam": {
+    "dependencies": {
+      "jquery": "1.9.1"
+    }
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "scripts": {
+    "start": "webpack-dev-server -d --colors"
+  },
+  "engines": {
+    "node": ">=0.1.30"
+  },
+  "homepage": "http://github.com/webpack/webpack-example"
 }
