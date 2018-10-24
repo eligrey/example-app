@@ -12,7 +12,7 @@
 		"url-loader": "0.5.x",
 		"file-loader": "0.5.x",
 		"coffee-loader": "0.7.x",
-		"jshint-loader": "0.6.x",
+		"jshint-loader": "0.8.0",
 		"bundle-loader": "0.5.x",
 		"style-loader": "0.6.x",
 		"css-loader": "0.6.x",
